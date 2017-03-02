@@ -88,7 +88,7 @@ li a {
 li a:hover {
     background-color: tomato;
     color:white;
-    transition: 1,15s;
+    
 
 }
 a
@@ -104,6 +104,7 @@ a:hover
   color: tomato;
 }
 /*HEADER*/
+
 main{
     /* margin-top: 00px; */
     position: relative;
