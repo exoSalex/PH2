@@ -1,0 +1,355 @@
+
+
+/* Estilo página de búsqueda */
+
+
+          /* ---------------------- */
+     /* --------------------------------- */
+   /* ------------------------------------- */
+ /* ----------------------------------------- */
+/* --------------- Hamburguesa --------------- */
+/* ------------------------------------------- */
+
+body{
+	margin:0 !important;
+}
+
+.form {
+  position:absolute;
+  top:0;
+  left:-95%; /*Ocultamos el menú en la parte izquierda para que no se vea a menos que pulsemos sobre la hamburguesa*/
+  background-color: #edeeee;
+  transition:all .5s ease; /*Damos a la caja del menú una transición para que tenga un desplazamiento suave*/
+  margin:10% auto 0 auto;
+	padding:30px;
+	width:90%;
+	height:auto;
+	overflow:hidden;
+	background:white;
+	border-radius:10px;
+
+}
+
+form label {
+	font-size:200%;
+	color:darkgray;
+	cursor:pointer;
+	margin-left: 8%;
+	font-family: 'Oswald', sans-serif;
+}
+
+.nav {
+	position: absolute;
+  width:90%;
+  height:100vh;
+  top:0;
+  left:-95%; /*Ocultamos el menú en la parte izquierda para que no se vea a menos que pulsemos sobre la hamburguesa*/
+  padding-top:2%;
+  margin-bottom: 5%;
+  background-color: #edeeee;
+  transition:all .5s ease; /*Damos a la caja del menú una transición para que tenga un desplazamiento suave*/
+}
+   /*Estilos de los li del menú*/
+   input{
+   	font-family: 'Oswald', sans-serif;
+     display:block;
+     font-size: 200%;
+     width:94%;
+     line-height:2;
+     margin: 3%;
+	padding:2% 6%;
+	outline:none;
+	border:1.5px solid #bbb;
+	border-radius:5em;
+	display:inline-block;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
+    -webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+     
+   }
+
+   form input[type=text]:focus,
+form input[type="password"]:focus, form input[type="date"]:focus {
+	border-color:#1abc9c;
+}
+
+form input[type=text]:hover,
+form input[type="password"]:hover, form input[type="date"]:hover {
+	border-color:white;
+}
+
+input[type=submit] {
+	font-size: 330%;
+	width:90%;
+	border-radius:5em;
+	background:#1abc9c;
+	border:none;
+	color:white;
+	cursor:pointer;
+	display:inline-block;
+	float:right;
+	clear:right;
+	-webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+input[type=submit]:hover {
+	opacity:0.8;
+}
+
+input[type="submit"]:active {
+	opacity:0.4;
+}
+       
+  /*Estos son los estilos de la hamburguesa del menú que abre y cierra el mismo*/
+
+  .iconset-search-circled{
+	font-size: 500%;
+}
+
+.iconset-search-circled:hover{
+	color: #1abc9c;
+}
+
+.menu-toogle {
+	transition:all 1s ease;/*Añadimos una transición para que realice un desplazamineto suave*/
+    position:fixed; /*Lo posicionamos absolutamente para poder darle una posición y poder moverlo según el menú esté abierto o cerrado*/
+    width: 5%;
+    line-height:1.1;
+    text-align:center;
+    top:6.5px; /*Le damos una posición top y left en donde queramos que se encuentre la hamburguesa del menú*/
+    left: 2%; 
+    border-radius:3px;
+    transition:all .5s ease;/*Añadimos una transición para que realice un desplazamineto suave*/
+    z-index:10;
+    
+  }
+    /*Añadimos la haburguesa y le damos unos estilos*/
+    .menu-toogle::before {
+      
+      font-size:32px;
+      color:white;
+
+    }
+
+    .checkbox {
+      display:none; /*Ocultamos el checkbox pues no nos interesa que se vea*/
+    }
+    .checkbox:checked ~ .nav {
+      left:0px; /*Le quitamos el left negativo para que el menú vuelva a su posición original*/
+      position:fixed; /* Fijamos el menú lateral para que se desplace cuando hagamos scroll*/
+    }
+    .checkbox:checked ~ .main-w {
+      margin-left:200px; /*Cuando el checkbox asigna un margen al contenedor principal para que se desplace junto con el menú*/
+    }
+    .checkbox:checked ~ .menu-toogle { 
+      left:89%;
+      position:fixed; /*Fijamos la hamburgues para que se desplace junto con el menú*/
+
+    }
+
+
+.main-w {
+  transition: all .5s ease;
+}  
+
+
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+
+/*
+form {
+	margin:10% auto 0 auto;
+	padding:30px;
+	width:400px;
+	height:auto;
+	overflow:hidden;
+	background:white;
+	border-radius:10px;
+}
+
+form label {
+	font-size:14px;
+	color:darkgray;
+	cursor:pointer;
+}
+
+form label,
+form input {
+	float:left;
+	clear:both;
+}
+
+form input {
+	margin:15px 0;
+	padding:15px 10px;
+	width:100%;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:20px;
+	display:inline-block;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
+    -webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+form input[type=text]:focus,
+form input[type="password"]:focus {
+	border-color:cornflowerblue;
+}
+
+input[type=submit] {
+	padding:15px 50px;
+	width:auto;
+	background:#1abc9c;
+	border:none;
+	color:white;
+	cursor:pointer;
+	display:inline-block;
+	float:right;
+	clear:right;
+	-webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+input[type=submit]:hover {
+	opacity:0.8;
+}
+
+input[type="submit"]:active {
+	opacity:0.4;
+}
+    
+  */
+
+
+
+
+/* Estilo página de acerca */
+
+.h4{
+	size: 30em;
+}
+
+.equipo{
+
+	width:100%;
+	display: inline-flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+.miembros{
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+}
+
+.elemento{
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.foto{
+	height: 15em;
+	text-align: center;
+}
+
+#color{
+	background-color: pink;
+border-bottom-right-radius:15px;
+border-bottom-left-radius:15px;
+height: 20%;
+}
+
+/* Footer */
+
+
+.h4{
+
+}
+
+.copyright{
+
+	font-family: 'Mada', sans-serif;
+	font-size: 100%;
+	color:#2E2E2E;
+	text-align: center;
+	background: #edeeee;
+	padding: 2.5%;
+	margin: 0 !important;
+	bottom:0;
+
+}
+
+.iconset-mail-alt{
+	margin-right: 5%;
+}
+
+.iconset-phone{
+	margin-right: 3%;
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+a:hover{
+	color: #1abc9c;
+}
+
+.footer {
+position: relative;
+
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: white;
+  background-color: #2E2E2E;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding-top: 1%;
+
+
+}
+
+.contacto h4,p{
+
+margin: 1% !important;
+}
+
+
+
+   
+  
+}
