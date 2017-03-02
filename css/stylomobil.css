@@ -14,7 +14,18 @@ body{
 */
 
 /*HEADER*/
+#iconmas{
 
+    color: #2D2C2C
+   margin:auto;
+   margin-top: 22px;
+    font-size: 3.5em;
+    position: absolute;
+    left: 170px;
+    margin: 20px;
+    z-index: 5;
+    position: fixed;
+}
 
 img.logotipo {
     width: 55px;
@@ -306,7 +317,7 @@ a.colink{
  * prefixes.
  */
 
-@media (max-width:720px) {
+@media (max-width:777px) {
 
 img.logotipo {
         width: 55px;
@@ -327,6 +338,18 @@ img.logotipo {
     top: 20px;
     left: 100px;
     z-index: 6;        
+}
+#iconmas{
+
+    color: #2D2C2C
+   margin:auto;
+   margin-top: 22px;
+    font-size: 3.5em;
+    margin: 20px;
+    position: absolute;
+    top: 20px;
+    left: 270px;
+    z-index: 6; 
 }
 a
 {
