@@ -317,6 +317,70 @@ a.colink{
  * production code, beware of the browser
  * prefixes.
  */
+ /* Footer */
+
+.footer>h4{
+
+}
+
+.copyright{
+
+  font-family: 'Mada', sans-serif;
+  font-size: 100%;
+  color:#2E2E2E;
+  text-align: center;
+  background: #edeeee;
+  padding: 2.5%;
+  margin: 0 !important;
+  bottom:0;
+
+}
+
+.iconset-mail-alt{
+  margin-right: 5%;
+}
+
+.iconset-phone{
+  margin-right: 3%;
+}
+
+
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:visited{
+  color: white;
+}
+
+.footer a:hover{
+  color: tomato;
+}
+
+.footer {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #403f3f;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding-top: 1%;
+    border-style: solid;
+    border-color: #363636;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+.contacto h4,p{
+
+margin: 1% !important;
+
+}
+
+/*Footer*/
 
 @media (max-width:777px) {
 
@@ -515,5 +579,17 @@ a:hover
     margin: auto;
     margin-left: 20px;
     margin-top: 55px;
+}
+}
+@media (max-width: 687px){
+.colright {
+    column-width: 10px;
+    column-gap: 15px;
+    column-count: 1;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 }
