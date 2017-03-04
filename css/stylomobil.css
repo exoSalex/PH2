@@ -14,25 +14,28 @@ body{
 */
 
 /*HEADER*/
-#iconmas{
-
-    color: #2D2C2C
-   margin:auto;
-   margin-top: 22px;
-    font-size: 3.5em;
-    position: absolute;
-    left: 170px;
-    margin: 20px;
-    z-index: 5;
+.mas{
+  width: 60px;
     position: fixed;
-}
-
-img.logotipo {
-    width: 55px;
-    position: absolute;
-    left: 100px;
+    left: 140px;
     margin: 20px;
     z-index: 5;
+    margin-top: 10px;
+    position: fixed;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.mas:hover{
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+img.logotipo {
+    width: 120px;
+    position:fixed;
+    left: 0px;
+    margin: 20px;
+    z-index: 5;
+    margin-top: 15px;
     position: fixed;
 }
 .titulopag{
@@ -385,13 +388,13 @@ margin: 1% !important;
 @media (max-width:777px) {
 
 img.logotipo {
-        width: 55px;
-    position: absolute;
-    left: 620px;
+    width: 120px;
+    position: fixed;
+    left: 80px;
     margin: 20px;
-    top: 20px;
-    left: 200px;
-    z-index: 6;
+    z-index: 5;
+    margin-top: 37px;
+    position: fixed;
 }
 .titulopag{
        font-family: 'Roboto',sans-serif;
@@ -404,17 +407,20 @@ img.logotipo {
     left: 100px;
     z-index: 6;        
 }
-#iconmas{
-
-    color: #2D2C2C
-   margin:auto;
-   margin-top: 22px;
-    font-size: 3.5em;
+.mas {
+    width: 50px;
+    position: fixed;
+    left: 220px;
     margin: 20px;
-    position: absolute;
-    top: 20px;
-    left: 270px;
-    z-index: 6; 
+    z-index: 5;
+    margin-top: 35px;
+    position: fixed;
+   -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.mas:visited{
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 a
 {
