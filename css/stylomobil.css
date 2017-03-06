@@ -26,8 +26,8 @@ body{
           transition:         transform .8s ease-in-out;
 }
 .mas:hover{
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 img.logotipo {
     width: 120px;
@@ -419,8 +419,8 @@ img.logotipo {
           transition:         transform .8s ease-in-out;
 }
 .mas:visited{
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 a
 {
