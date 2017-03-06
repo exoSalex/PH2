@@ -9,7 +9,10 @@
 		<meta name="keywords" content="critica, opiniones, experiencias, opinar, debate" >
 		<meta name="author" content="Samuel Martínez Javaloyes  / Alejandro Ruiz Cáceres">
 
-		<link rel="stylesheet" href="mystyle.css">
+		<link rel="stylesheet" href="registro.css">
+		<link href="https://fonts.googleapis.com/css?family=Mada|Oswald" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="fontello/css/iconset.css" />
+
 
 	</head>
 
@@ -19,10 +22,10 @@
 
 		<form class="registro" action="" method="get" autocomplete="on">
 
-			<input type="text" name="Login" placeholder="Login" autofocus required maxlength="20"><br>	<!--NO SE SABE CUAL ES ESTE CAMPO-->
-			<input type="text" name="Nombre" placeholder="Nombre" autofocus required maxlength="30"><br>
-			<input type="password" name="constraseña" placeholder="Contraseña" pattern="" required maxlength="20" autocomplete="off"><br>
-			<input type="password" name="repetirContraseña" placeholder="Repetir Contraseña" required maxlength="20" autocomplete="off"><br>
+			<input type="text" name="Login" placeholder="Login" pattern="[a-zA-Z]+[a-zA-Z0-9]{0,19}" autofocus required maxlength="20"><br>	
+			<input type="text" name="Nombre" placeholder="Nombre" required maxlength="30"><br>
+			<input type="password" name="constraseña" placeholder="Contraseña" pattern="[a-zA-Z0-9_-]{0,20}" required maxlength="20" autocomplete="off"><br>
+			<input type="password" name="repetirContraseña" placeholder="Repetir Contraseña" required maxlength="20" pattern="[a-zA-Z0-9_-]{0,20}" autocomplete="off"><br>
 			<input type="email" name="email" placeholder="Email" required ><br>
 			<input type="submit" name="registrarse" value="Registrarse">
 
@@ -32,11 +35,17 @@
 		
 	</body>
 
-	<footer>
+	<footer class="footer">
+		<section class=contacto>
 
-		<p>Copyright © 2017 Exo Inc. Todos los derechos reservados.</p>
-		<a href="contacto.html">Contacto</a>
-		<a href="acerca.html">Acerca de</a>
+		<h4>CONTACTO</h4>
+		<p><i class="iconset-phone"></i>+34 999 99 99 99</p>
+		<a href="mailto:hola@exo.com?Subject=Hola%20Exo" target="_top"><i class="iconset-mail-alt"></i>hola@exo.com</a>
+		<h4><a href="acerca.html">ACERCA DE</a></h4>
+
+		</section>
+
+		<p class="copyright"> Copyright &copy; <time datetime="2017">2017</time> Exo Inc. </p>
 		
 	</footer>
 
