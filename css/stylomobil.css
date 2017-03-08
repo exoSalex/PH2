@@ -200,13 +200,15 @@ figure{
 	
 }
 .desc{
-	    justify-content: space-around;
+	    /* justify-content: center; */
     margin: 0;
-    padding-right: 15px;
-    padding-left: 15px;
-    text-align: justify;
-      font-family: 'Roboto', sans-serif;
-      color:#3E3E3E;
+    padding-right: 0;
+    padding-left: 10px;
+    /* text-align: center; */
+    font-family: 'Roboto', sans-serif;
+    color: #c7c3c3;
+    text-transform: uppercase;
+    font-size: 2em;
 }
 .info{
 	    position: relative;
@@ -227,7 +229,28 @@ figure{
     margin-right: 10px;
     font-family: 'Roboto', sans-serif;
 }
-
+.profinfo{
+         position: relative;
+    padding: 5px;
+    width: 100px;
+    top: -37px;
+    right: 0px;
+    border: 1px solid #777777;
+    border-radius: 2px;
+    color: #585858;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin: 10px 0;
+    display: inline-block;
+    opacity: 0.65;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 5px;
+    float: right;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
@@ -385,8 +408,20 @@ margin: 1% !important;
 
 /*Footer*/
 
-@media (max-width:777px) {
-
+@media (max-width:916px) {
+header{
+    background-color: white;
+    height: 100px;
+    width: 101%;
+    z-index: 7;
+    border-style: solid;
+    border-color: #3F3F3F;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: -10px;
+    position: fixed;
+    padding: 10px;
+}
 img.logotipo {
     width: 120px;
     position: fixed;
@@ -396,17 +431,7 @@ img.logotipo {
     margin-top: 37px;
     position: fixed;
 }
-.titulopag{
-       font-family: 'Roboto',sans-serif;
-    color: #424141;
-    width: auto;
-    font-size: -webkit-xxx-large;
-    margin: 20px;
-    position: absolute;
-    top: 20px;
-    left: 100px;
-    z-index: 6;        
-}
+
 .mas {
     width: 50px;
     position: fixed;
@@ -414,7 +439,7 @@ img.logotipo {
     margin: 20px;
     z-index: 5;
     margin-top: 35px;
-    position: fixed;
+    position: absolute;
    -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
@@ -440,7 +465,7 @@ a:hover
   display: block;
   position: relative;
   top: 50px;
-  left: 40px;
+  left: 20px;
   
   z-index: 5;
   
