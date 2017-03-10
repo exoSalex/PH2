@@ -21,7 +21,7 @@ body{
 
 
 
-.mas{
+.in_mas{
   width: 60px;
     position: fixed;
     left: 140px;
@@ -32,11 +32,11 @@ body{
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-.mas:hover{
+.in_mas:hover{
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-img.logotipo {
+img.in_logotipo {
     width: 120px;
     position:fixed;
     left: 0px;
@@ -45,7 +45,7 @@ img.logotipo {
     margin-top: 15px;
     position: fixed;
 }
-.titulopag{
+.in_titulopag{
    font-family: 'Roboto',sans-serif;
     color: #424141;
     width: auto;
@@ -120,7 +120,7 @@ main{
     position: relative;
     top: 90px;
 }
-.contiene {
+.in_contiene {
     display: flex;
     padding: 0;
     /* column-width: 320px; */
@@ -133,7 +133,7 @@ main{
 #leftu{
     float: right;
 }
-.colright{
+.in_colright{
      column-width: 320px;
     column-gap: 15px;
     column-count: 3;
@@ -142,7 +142,7 @@ main{
     display: inline-block;
     /* width: 40%; */
 }
-.coleft{
+.in_coleft{
         column-width: 320px;
     column-gap: 15px;
     column-count: 2;
@@ -152,11 +152,11 @@ main{
     margin: 0;
     margin-top: 55px;
 }
-.col1{
+.in_col1{
     display: inline-block;
     float: left;
 }
-.imgs{
+.in_imgs{
 	float: left;
 	width:100%;
 	padding: 0;
@@ -167,7 +167,7 @@ main{
 	border-bottom-left-radius: 0;
   background-color: #191919;
 }
-.overlay{
+.in_overlay{
     display: block;
     position: absolute;
     justify-content: center;
@@ -177,7 +177,7 @@ main{
     opacity: 0;
     border-radius: 7px;
 }
-.texto{
+.in_texto{
       display: block;
     text-align: center;
     width: auto;
@@ -187,7 +187,7 @@ main{
     pointer-events: none;
   
 }
-.info2{
+.in_info2{
      position: relative;
     padding: 5px;
     border: 1px solid #777777;
@@ -209,7 +209,7 @@ main{
     display: flex;
    
 }
-.info3{
+.in_info3{
      position: relative;
     padding: 5px;
     border: 1px solid #777777;
@@ -232,22 +232,22 @@ main{
    
 }
 
-.contain:hover + .overlay{
+.in_contain:hover + .in_overlay{
   opacity: 1;
   transition: 0.5s;
 }
-.contain:hover{
+.in_contain:hover{
   opacity: 0.1;
   transition: 0.3s;
 }
-.overlay:hover{
+.in_overlay:hover{
   opacity:1;
   background-color: white;
   background-color: rgba(255, 255, 255,0.8);
   transition: 0.5s;
 }
 
-.ficha{
+.in_ficha{
 	
   padding: 0px;
   width:20em;
@@ -260,7 +260,7 @@ main{
    display: inline-block;
   
 }
-.line {
+.in_line {
     width: 100px;
     position: relative;
     display: inline-block;
@@ -268,7 +268,7 @@ main{
     padding: 0;
     left: 15px;
 }
-.tituloficha {
+.in_tituloficha {
     padding: 5px;
     margin-top: -5px;
     margin-bottom: -5px;
@@ -276,19 +276,12 @@ main{
     color: #454545;
     font-family: 'Roboto', sans-serif;
 }
-.tituloficha>span{
+.in_tituloficha>span{
 	color: #6C6C6C
 }
-figcaption{
-display: inline-block;
-}
-figure{
-	margin: 0;
-}
-.capt{
-	
-}
-.descripcion{
+
+
+.in_descripcion{
      /* border: 1px solid #000; */
     text-align: center;
     height: 0px;
@@ -306,11 +299,11 @@ figure{
     /* margin-left: 20px; */
    
 }
-.imgs:hover + .descripcion{
+.in_imgs:hover + .in_descripcion{
   transition: 0.5s;
   display: block;
 }
-.desc{
+.in_desc{
 	    /* justify-content: center; */
     margin: 0;
     padding-right: 0;
@@ -322,7 +315,7 @@ figure{
     font-size: 2em;
     margin: 10px;
 }
-.info{
+.in_info{
 	    position: relative;
     padding: 5px;
     border: 1px solid #777777;
@@ -342,7 +335,7 @@ figure{
     font-family: 'Roboto', sans-serif;
 }
 
-.profinfo{
+.in_profinfo{
          position: relative;
     padding: 5px;
     width: 100px;
@@ -369,33 +362,33 @@ figure{
 
 
 /*COMMENTS*/
-.comentname{
+.in_comentname{
    margin: 0;
     margin-left: 35px;
     margin-bottom:10px; 
      font-family: 'Roboto', sans-serif;
       color:tomato;
 }
-.coment{
+.in_coment{
     
     margin: 0;
     margin-bottom:5px;
     border-radius: 5px;
-    width: 98%;
+    width: 95%;
     border-width: 1.5px;
  border-style:solid;
  border-color:#373737;
  height: 240px;
 
 }
-.fecha{
+.in_fecha{
     margin: 0;
     margin-left: 35px;
     margin-bottom:10px; 
      font-family: 'Roboto', sans-serif;
       color:#3E3E3E;
 }
-.profo{
+.in_profo{
 width: 60px;
 height: auto;
 border-radius: 50%;
@@ -404,11 +397,11 @@ border: solid;
 margin: 10px;
 margin-left: 30px;
 }
-.cobox{
+.in_cobox{
   max-width: 100%;
   height: 40px;
 }
-.coparraf{
+.in_coparraf{
  
        justify-content: space-around;
     margin: 0;
@@ -423,7 +416,7 @@ margin-left: 30px;
 
 }
 
-a.colink{
+a.in_colink{
    
   
      position: relative;
@@ -448,7 +441,7 @@ a.colink{
       
 }
 
-.profoname{
+.in_profoname{
     margin: 0;
     margin-left: 35px;
     margin-bottom:10px; 
@@ -471,11 +464,11 @@ a.colink{
  */
  /* Footer */
 
-.footer>h4{
+.in_footer>h4{
 
 }
 
-.copyright{
+.in_copyright{
 
   font-family: 'Mada', sans-serif;
   font-size: 100%;
@@ -497,20 +490,20 @@ a.colink{
 }
 
 
-.footer a{
+.in_footer a{
   text-decoration: none;
   color: white;
 }
 
-.footer a:visited{
+.in_footer a:visited{
   color: white;
 }
 
-.footer a:hover{
+.in_footer a:hover{
   color: tomato;
 }
 
-.footer {
+.in_footer {
     position: relative;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -526,12 +519,12 @@ a.colink{
     border-radius: 5px;
 }
 
-.contacto h4,p{
+.in_contacto h4,p{
 
 margin: 1% ;
 
 }
-p.descripcion{
+p.in_descripcion{
   margin: 0;
 }
 /*Footer*/
@@ -550,7 +543,7 @@ header{
     position: fixed;
     padding: 10px;
 }
-img.logotipo {
+img.in_logotipo {
     width: 120px;
     position: fixed;
     left: 80px;
@@ -560,7 +553,7 @@ img.logotipo {
     position: fixed;
 }
 
-.mas {
+.in_mas {
     width: 50px;
     position: fixed;
     left: 220px;
@@ -571,7 +564,7 @@ img.logotipo {
    -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-.mas:visited{
+.in_mas:visited{
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
@@ -588,7 +581,7 @@ a:hover
   color: tomato;
 }
 
-#menuToggle
+#in_menuToggle
 {
   display: block;
   position: relative;
@@ -601,7 +594,7 @@ a:hover
   user-select: none;
 }
 
-#menuToggle input
+#in_menuToggle input
 {
   display: block;
   width: 40px;
@@ -612,17 +605,15 @@ a:hover
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
-  z-index: 5; /* and place it over the hamburger */
+  opacity: 0; 
+  z-index: 5; 
   
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
 
-#menuToggle span
+
+#in_menuToggle span
 {
   display: block;
   width: 33px;
@@ -642,21 +633,20 @@ a:hover
               opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
+#in_menuToggle span:first-child
 {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
+#in_menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
 
 /* 
- * Transform all the slices of hamburger
- * into a crossmark.
+ * Transformacion en cruz
  */
-#menuToggle input:checked ~ span
+#in_menuToggle input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
@@ -664,28 +654,27 @@ a:hover
 }
 
 /*
- * But let's hide the middle one.
+ * Escondemos la de en medio
  */
-#menuToggle input:checked ~ span:nth-last-child(3)
+#in_menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
 /*
- * Ohyeah and the last one should go the other direction
+ *Y la otra al opuesto, para que sea una cruz
  */
-#menuToggle input:checked ~ span:nth-last-child(2)
+#in_menuToggle input:checked ~ span:nth-last-child(2)
 {
   opacity: 1;
   transform: rotate(-45deg) translate(0, -1px);
 }
 
 /*
- * Make this absolute positioned
- * at the top left of the screen
+ * Lo posicionamos guay
  */
-#menu
+#in_menu
 {
   position: absolute;
     width: 100%;
@@ -701,16 +690,16 @@ a:hover
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
+#in_menu li
 {
   padding: 10px 0;
   font-size: 22px;
 }
 
 /*
- * And let's fade it in from the left
+ * hacemos que aparezca rollo fade desde la izquierda
  */
-#menuToggle input:checked ~ ul
+#in_menuToggle input:checked ~ ul
 {
   transform: scale(1.0, 1.0);
   opacity: 1;
@@ -719,7 +708,7 @@ a:hover
 
 }
 @media (max-width:1424px) {
-  .contiene {
+  .in_contiene {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -729,7 +718,7 @@ a:hover
     margin: 0;
     margin-top: -40px;
 }
-.coleft {
+.in_coleft {
     column-width: 320px;
     column-gap: 15px;
     column-count: 1;
@@ -741,7 +730,7 @@ a:hover
 }
 }
 @media (max-width: 687px){
-.colright {
+.in_colright {
     column-width: 10px;
     column-gap: 15px;
     column-count: 1;
@@ -755,27 +744,27 @@ a:hover
 
 
 
-.pagination {
+.in_pagination {
     display: inline-block;
     position: relative;
     width: 100%;
 
 }
 
-.pagination a {
+.in_pagination a {
     color: black;
     float: left;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-.pagination a.active {
+.in_pagination a.in_active {
     background-color: #393939;
     color: white;
     border-radius: 5px;
 }
 
-.pagination a:hover:not(.active) {
+.in_pagination a:hover:not(.in_active) {
     background-color: tomato;
     color:white;
     border-radius: 5px;
