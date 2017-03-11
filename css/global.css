@@ -544,6 +544,36 @@ header{
     position: fixed;
     padding: 10px;
 }
+
+.lo_head{
+  background-color: white;
+    height: 100px;
+    width: 101%;
+    z-index: 7;
+    border-style: solid;
+    border-color: #3F3F3F;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: -10px;
+    position: fixed;
+    padding: 10px;
+    top:-15px;
+}
+
+.nu_en_header{
+ background-color: white;
+    height: 100px;
+    width: 101%;
+    z-index: 7;
+    border-style: solid;
+    border-color: #3F3F3F;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: -10px;
+    position: fixed;
+    padding: 10px;
+    top:-15px; 
+}
 img.in_logotipo {
     width: 120px;
     position: fixed;
