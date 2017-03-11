@@ -163,11 +163,79 @@ font-size: 80%;
 /***************************ENTRADA***************************/
 
 
-.en-contain{
-background-color: #282828;
+.en-nav ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+    border-style: solid;
+    border-color: #424141;
+    border-radius: 5px;
+    background: white;
+    width: 101%;
+    z-index: 3;
+    position: absolute! important;
 }
 
+.asociado{
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
 
+.en-contain{
+background-color: #777777;
+
+justify-content: space-between;
+display:flex;
+
+}
+
+.rows{
+  
+  font-size: 4em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.en-flech{
+  opacity: 0.65;
+  width:15%;
+  background-color: #454545;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.en-info3{
+
+top: -50px;
+    position: relative;
+    padding: 5px;
+    border: 1px solid #777777;
+    border-radius: 2px;
+    color: #585858;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin: 10px 0;
+    display: inline-block;
+    opacity: 0.65;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 5px;
+    float: right;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+      justify-content: center;
+      display:flex;
+
+}
+
+@media (max-width:616px) {
+.en-profinfo{
+top: -50px;
+  }
+}
 
 .en-h{
 width: auto;
@@ -178,10 +246,17 @@ width: auto;
 
 }
 
+.en-capt{
+  
+}
+
 .en-imagen{
 max-height: 500px;
-height: 100%;
+border-radius: 3%;
+
 }
+
+
 
 
 /*BOTON RESPONDER*/
@@ -189,7 +264,7 @@ height: 100%;
 .en-ficha{
   
  
-  width:100%;
+  
   
 
   border-radius: 10px;
@@ -333,6 +408,44 @@ font-size: 100%;
  margin-left:2.5%;
  
 
+}
+
+.en-tituloficha{
+
+    padding: 5px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    color: #454545;
+    font-family: 'Roboto', sans-serif;
+
+
+  color: #6C6C6C
+
+
+}
+
+.en-profinfo{
+         position: relative;
+    padding: 5px;
+    width: 100px;
+    top: -37px;
+    right: 0px;
+    border: 1px solid #777777;
+    border-radius: 2px;
+    color: #585858;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin: 10px 0;
+    display: inline-block;
+    opacity: 0.65;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 5px;
+    float: right;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .en-responder:hover{
