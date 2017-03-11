@@ -1003,18 +1003,7 @@ margin: 1% ;
 
 @media (max-width:916px) {
 header{
-    background-color: white;
-    height: 100px;
-    width: 101%;
-    z-index: 7;
-    border-style: solid;
-    border-color: #3F3F3F;
-    border-width: 1px;
-    border-radius: 5px;
-    margin-left: -10px;
-    position: fixed;
-    padding: 10px;
-    top:0;
+  
 }
 img.lo_logotipo {
     width: 120px;
@@ -1527,20 +1516,7 @@ margin: 1% ;
 /*Footer*/
 
 @media (max-width:916px) {
-header{
-    background-color: white;
-    height: 100px;
-    width: 101%;
-    z-index: 7;
-    border-style: solid;
-    border-color: #3F3F3F;
-    border-width: 1px;
-    border-radius: 5px;
-    margin-left: -10px;
-    position: fixed;
-    padding: 10px;
-    top:0;
-}
+
 img.nu_en_logotipo {
     width: 120px;
     position: fixed;
