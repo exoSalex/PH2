@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway|Roboto');
+body{
+	background: #F4F4F4;
+   
+}
+/*
+.colrigth{
+     display: flex;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+*/
+
+
+
+
+/*HEADER*/
+
+
+
+
+.in_mas{
+  width: 60px;
+    position: fixed;
+    left: 140px;
+    margin: 20px;
+    z-index: 5;
+    margin-top: 10px;
+    position: fixed;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.in_mas:hover{
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+img.in_logotipo {
+    width: 120px;
+    position:fixed;
+    left: 0px;
+    margin: 20px;
+    z-index: 5;
+    margin-top: 15px;
+    position: fixed;
+}
+.in_titulopag{
+   font-family: 'Roboto',sans-serif;
+    color: #424141;
+    width: auto;
+    font-size: -webkit-xxx-large;
+    margin: 20px;
+        position: absolute;
+    left: 0px;
+    z-index: 5;
+    position: fixed;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: -10px;
+    margin-top: -35px;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+    border-style: solid;
+    border-color: #424141;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: fixed;
+    background: white;
+    width: 101%;
+    z-index: 3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+   display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 25px;
+    text-decoration: none;
+    height: 20px;
+    border-style: solid;
+    font-family: 'Roboto',sans-serif;
+    color: #424141;
+    border-radius: 5px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: tomato;
+    color:white;
+    
+
+}
+a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: tomato;
+}
+/*HEADER*/
+
+main{
+    /* margin-top: 00px; */
+    position: relative;
+    top: 90px;
+}
+
+
+#leftu{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*COMMENTS*/
+
+
+
+
+
+/*HEADER*/
+
+/*HAMBURGUESA*/
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * All rights reserved
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+ /* Footer */
+
+.in_footer>h4{
+
+}
+
+.in_copyright{
+
+  font-family: 'Mada', sans-serif;
+  font-size: 100%;
+  color:#2E2E2E;
+  text-align: center;
+  background: #edeeee;
+  padding: 2.5%;
+  margin: 0 !important;
+  bottom:0;
+
+}
+
+.iconset-mail-alt{
+  margin-right: 5%;
+}
+
+.iconset-phone{
+  margin-right: 3%;
+}
+
+
+.in_footer a{
+  text-decoration: none;
+  color: white;
+}
+
+.in_footer a:visited{
+  color: white;
+}
+
+.in_footer a:hover{
+  color: tomato;
+}
+
+.in_footer {
+        position: relative;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #403f3f;
+    bottom: 0;
+    width: 110%;
+    left: 0;
+    padding-top: 1%;
+    margin-left: -10px;
+    border-style: solid;
+    border-color: #363636;
+    margin-top: 200px;
+    border-radius: 5px;
+    bottom: -50px;
+}
+
+.in_contacto h4,p{
+
+margin: 1% ;
+
+}
+
+/*Footer*/
+
+@media (max-width:916px) {
+header{
+    background-color: white;
+    height: 100px;
+    width: 101%;
+    z-index: 7;
+    border-style: solid;
+    border-color: #3F3F3F;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: -10px;
+    position: fixed;
+    padding: 10px;
+    top:0;
+}
+img.in_logotipo {
+    width: 120px;
+    position: fixed;
+    left: 80px;
+    margin: 20px;
+    z-index: 5;
+    margin-top: 37px;
+    position: fixed;
+}
+
+.in_mas {
+    width: 50px;
+    position: fixed;
+    left: 220px;
+    margin: 20px;
+    z-index: 5;
+    margin-top: 35px;
+    position: absolute;
+   -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.in_mas:visited{
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: tomato;
+}
+
+#in_menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  
+  z-index: 5;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#in_menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; 
+  z-index: 5; 
+  
+  -webkit-touch-callout: none;
+}
+
+
+
+#in_menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 4;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#in_menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#in_menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transformacion en cruz
+ */
+#in_menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * Escondemos la de en medio
+ */
+#in_menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ *Y la otra al opuesto, para que sea una cruz
+ */
+#in_menuToggle input:checked ~ span:nth-last-child(2)
+{
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Lo posicionamos guay
+ */
+#in_menu
+{
+  position: absolute;
+    width: 100%;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background: #ededed;
+    list-style-type: none;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#in_menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * hacemos que aparezca rollo fade desde la izquierda
+ */
+#in_menuToggle input:checked ~ ul
+{
+  transform: scale(1.0, 1.0);
+  opacity: 1;
+}
+
+
+}
+@media (max-width:1424px) {
+
+}
+@media (max-width: 687px){
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login {
+    /* padding: 8% 0 0; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.form {
+     position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0);
+    /* max-width: 360px; */
+    margin: 0;
+    margin: auto;
+    padding: 45px;
+    text-align: center;
+    border-style: solid;
+    border-color: #403f3f;
+    border-radius: 5px;
+    
+}
+.form input {
+ font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    /* border: 0; */
+    margin: 0 0 15px;
+    padding: 15px;
+    /* box-sizing: border-box; */
+    font-size: 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.form button {
+      font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    /* outline: 0; */
+    background: rgba(255, 255, 255, 0);
+   
+    /* border: 0; */
+    padding: 15px;
+    padding-right:30px;
+    padding-left:30px;
+    color: #403f3f;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #403f3f;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.form button:hover,.form button:active,.form button:focus {
+     background: tomato;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: tomato;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
