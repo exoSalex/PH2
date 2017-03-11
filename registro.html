@@ -1,41 +1,84 @@
 <!DOCTYPE html>
-	<html lang="es">
 
-	<head>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Mada|Oswald" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="fontello/css/iconset.css" />
+
+	
+	
 
 		<title>Exo</title>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
 		<meta name="description" content="Comparte tus experiencias y opiniones con todo el mundo.">
 		<meta name="keywords" content="critica, opiniones, experiencias, opinar, debate" >
 		<meta name="author" content="Samuel Martínez Javaloyes  / Alejandro Ruiz Cáceres">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" href="registro.css">
-		<link href="https://fonts.googleapis.com/css?family=Mada|Oswald" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="fontello/css/iconset.css" />
+		<link rel="stylesheet" type="text/css" href="css/registro.css">
 
+	
 
-	</head>
-
+</head>
 	<body>
+	<header>
+	<div class="present">
+<a href="index.html"><img class="logotipo" src="corp/logo-exo.svg" alt="logotipo de EXO"></a>
+<a href="nueva-entrada.html"><img class="mas" src="corp/plus.svg" alt="subir publicación"></a>
+</div>
+		<div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+<ul id="menu">
+	
+	
+	<li><a href="default.asp">Categories</a></li>
+	<li><a href="buscar.html">Buscar</a></li>
+	<li><a id="leftu" href="login.html">Log In</a></li>
+	<li><a id="leftu" href="contact.asp">Log Out</a></li>
+	<li><a id="leftu" href="registro.html">Register</a></li>
+</ul>
+</div>
+	</header>
+	<main class="re-main">
 
-		<img src="logo.png" alt="Logo Exo" height="42" width="42">
 
 		<form class="registro" action="" method="get" autocomplete="on">
 
-			<input type="text" name="Login" placeholder="Login" pattern="[a-zA-Z]+[a-zA-Z0-9]{0,19}" autofocus required maxlength="20"><br>	
-			<input type="text" name="Nombre" placeholder="Nombre" required maxlength="30"><br>
-			<input type="password" name="constraseña" placeholder="Contraseña" pattern="[a-zA-Z0-9_-]{0,20}" required maxlength="20" autocomplete="off"><br>
-			<input type="password" name="repetirContraseña" placeholder="Repetir Contraseña" required maxlength="20" pattern="[a-zA-Z0-9_-]{0,20}" autocomplete="off"><br>
-			<input type="email" name="email" placeholder="Email" required ><br>
-			<input type="submit" name="registrarse" value="Registrarse">
+		<p class="re-p">ÚNETE A EXO</p>
+
+			<input class="re-input" type="text" name="Login" placeholder="Login" pattern="[a-zA-Z]+[a-zA-Z0-9]{0,19}" autofocus required maxlength="20"><br>	
+			<input class="re-input" type="text" name="Nombre" placeholder="Nombre" required maxlength="30"><br>
+			<input class="re-input" type="password" name="constraseña" placeholder="Contraseña" pattern="[a-zA-Z0-9_-]{0,20}" required maxlength="20" autocomplete="off"><br>
+			<input class="re-input" type="password" name="repetirContraseña" placeholder="Repetir Contraseña" required maxlength="20" pattern="[a-zA-Z0-9_-]{0,20}" autocomplete="off"><br>
+			<input class="re-input" type="email" name="email" placeholder="Email" required ><br>
+			<input class="re-input" type="submit" name="registrarse" value="Registrarse">
 
 		</form>
 	
-		<p>¿Ya tienes una cuenta?<a class="enlace" href="login.html">Iniciar sesión</a></p>
-		
-	</body>
+		<p class="re-p">¿Ya tienes una cuenta?<a class="re-enlace" href="login.html">  Iniciar sesión</a></p>
 
-	<footer class="footer">
+
+    </main>
+
+   <footer class="footer">
 		<section class=contacto>
 
 		<h4>CONTACTO</h4>
@@ -48,5 +91,5 @@
 		<p class="copyright"> Copyright &copy; <time datetime="2017">2017</time> Exo Inc. </p>
 		
 	</footer>
-
+	</body>
 </html>
