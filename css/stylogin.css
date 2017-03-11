@@ -412,7 +412,7 @@ a:hover
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-.login {
+.lo_login {
     /* padding: 8% 0 0; */
     display: flex;
     justify-content: center;
@@ -420,7 +420,7 @@ a:hover
     margin-top: 100px;
 
 }
-.form {
+.lo_form {
      position: relative;
     z-index: 1;
     background: rgba(255, 255, 255, 0);
@@ -434,7 +434,7 @@ a:hover
     border-radius: 5px;
     
 }
-.form input {
+.lo_form input {
  font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
@@ -448,7 +448,7 @@ a:hover
     border-width: 1px;
     border-radius: 5px;
 }
-.form button {
+.lo_form button {
       font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     /* outline: 0; */
@@ -468,54 +468,54 @@ a:hover
     border-width: 1px;
     border-radius: 5px;
 }
-.form button:hover,.form button:active,.form button:focus {
+.lo_form button:hover,.lo_form button:active,.lo_form button:focus {
      background: tomato;
     color: white;
     border: none;
     transition: 0.5s;
 }
-.form .message {
+.lo_form .lo_message {
   margin: 15px 0 0;
   color: #b3b3b3;
   font-size: 12px;
 }
-.form .message a {
+.lo_form .lo_message a {
   color: tomato;
   text-decoration: none;
 }
-.form .register-form {
+.lo_form .lo_register-form {
   display: none;
 }
-.container {
+.lo_lo_container {
   position: relative;
   z-index: 1;
   max-width: 300px;
   margin: 0 auto;
 }
-.container:before, .container:after {
+.lo_container:before, .lo_container:after {
   content: "";
   display: block;
   clear: both;
 }
-.container .info {
+.lo_container .lo_info {
   margin: 50px auto;
   text-align: center;
 }
-.container .info h1 {
+.lo_container .lo_info h1 {
   margin: 0 0 15px;
   padding: 0;
   font-size: 36px;
   font-weight: 300;
   color: #1a1a1a;
 }
-.container .info span {
+.lo_container .lo_info span {
   color: #4d4d4d;
   font-size: 12px;
 }
-.container .info span a {
+.lo_container .lo_info span a {
   color: #000000;
   text-decoration: none;
 }
-.container .info span .fa {
+.lo_container .lo_info span .fa {
   color: #EF3B3A;
 }
