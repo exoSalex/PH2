@@ -21,7 +21,7 @@ body{
 
 
 
-.in_mas{
+.lo_mas{
   width: 60px;
     position: fixed;
     left: 140px;
@@ -32,11 +32,11 @@ body{
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-.in_mas:hover{
+.lo_mas:hover{
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-img.in_logotipo {
+img.lo_logotipo {
     width: 120px;
     position:fixed;
     left: 0px;
@@ -45,7 +45,7 @@ img.in_logotipo {
     margin-top: 15px;
     position: fixed;
 }
-.in_titulopag{
+.lo_titulopag{
    font-family: 'Roboto',sans-serif;
     color: #424141;
     width: auto;
@@ -159,11 +159,11 @@ main{
  */
  /* Footer */
 
-.in_footer>h4{
+.lo_footer>h4{
 
 }
 
-.in_copyright{
+.lo_copyright{
 
   font-family: 'Mada', sans-serif;
   font-size: 100%;
@@ -185,20 +185,20 @@ main{
 }
 
 
-.in_footer a{
+.lo_footer a{
   text-decoration: none;
   color: white;
 }
 
-.in_footer a:visited{
+.lo_footer a:visited{
   color: white;
 }
 
-.in_footer a:hover{
+.lo_footer a:hover{
   color: tomato;
 }
 
-.in_footer {
+.lo_footer {
         position: relative;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -216,7 +216,7 @@ main{
     bottom: -50px;
 }
 
-.in_contacto h4,p{
+.lo_contacto h4,p{
 
 margin: 1% ;
 
@@ -239,7 +239,7 @@ header{
     padding: 10px;
     top:0;
 }
-img.in_logotipo {
+img.lo_logotipo {
     width: 120px;
     position: fixed;
     left: 80px;
@@ -249,7 +249,7 @@ img.in_logotipo {
     position: fixed;
 }
 
-.in_mas {
+.lo_mas {
     width: 50px;
     position: fixed;
     left: 220px;
@@ -260,7 +260,7 @@ img.in_logotipo {
    -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-.in_mas:visited{
+.lo_mas:visited{
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
@@ -277,7 +277,7 @@ a:hover
   color: tomato;
 }
 
-#in_menuToggle
+#lo_menuToggle
 {
   display: block;
   position: relative;
@@ -290,7 +290,7 @@ a:hover
   user-select: none;
 }
 
-#in_menuToggle input
+#lo_menuToggle input
 {
   display: block;
   width: 40px;
@@ -309,7 +309,7 @@ a:hover
 
 
 
-#in_menuToggle span
+#lo_menuToggle span
 {
   display: block;
   width: 33px;
@@ -329,12 +329,12 @@ a:hover
               opacity 0.55s ease;
 }
 
-#in_menuToggle span:first-child
+#lo_menuToggle span:first-child
 {
   transform-origin: 0% 0%;
 }
 
-#in_menuToggle span:nth-last-child(2)
+#lo_menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
@@ -342,7 +342,7 @@ a:hover
 /* 
  * Transformacion en cruz
  */
-#in_menuToggle input:checked ~ span
+#lo_menuToggle input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
@@ -352,7 +352,7 @@ a:hover
 /*
  * Escondemos la de en medio
  */
-#in_menuToggle input:checked ~ span:nth-last-child(3)
+#lo_menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
@@ -361,7 +361,7 @@ a:hover
 /*
  *Y la otra al opuesto, para que sea una cruz
  */
-#in_menuToggle input:checked ~ span:nth-last-child(2)
+#lo_menuToggle input:checked ~ span:nth-last-child(2)
 {
   opacity: 1;
   transform: rotate(-45deg) translate(0, -1px);
@@ -370,7 +370,7 @@ a:hover
 /*
  * Lo posicionamos guay
  */
-#in_menu
+#lo_menu
 {
   position: absolute;
     width: 100%;
@@ -386,7 +386,7 @@ a:hover
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#in_menu li
+#lo_menu li
 {
   padding: 10px 0;
   font-size: 22px;
@@ -395,7 +395,7 @@ a:hover
 /*
  * hacemos que aparezca rollo fade desde la izquierda
  */
-#in_menuToggle input:checked ~ ul
+#lo_menuToggle input:checked ~ ul
 {
   transform: scale(1.0, 1.0);
   opacity: 1;

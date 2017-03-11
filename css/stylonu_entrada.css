@@ -21,7 +21,7 @@ body{
 
 
 
-.in_mas{
+.nu_en_mas{
   width: 60px;
     position: fixed;
     left: 140px;
@@ -32,11 +32,11 @@ body{
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-.in_mas:hover{
+.nu_en_mas:hover{
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-img.in_logotipo {
+img.nu_en_logotipo {
     width: 120px;
     position:fixed;
     left: 0px;
@@ -45,7 +45,7 @@ img.in_logotipo {
     margin-top: 15px;
     position: fixed;
 }
-.in_titulopag{
+.nu_en_titulopag{
    font-family: 'Roboto',sans-serif;
     color: #424141;
     width: auto;
@@ -159,11 +159,11 @@ main{
  */
  /* Footer */
 
-.in_footer>h4{
+.nu_en_footer>h4{
 
 }
 
-.in_copyright{
+.nu_en_copyright{
 
   font-family: 'Mada', sans-serif;
   font-size: 100%;
@@ -185,20 +185,20 @@ main{
 }
 
 
-.in_footer a{
+.nu_en_footer a{
   text-decoration: none;
   color: white;
 }
 
-.in_footer a:visited{
+.nu_en_footer a:visited{
   color: white;
 }
 
-.in_footer a:hover{
+.nu_en_footer a:hover{
   color: tomato;
 }
 
-.in_footer {
+.nu_en_footer {
         position: relative;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -216,7 +216,7 @@ main{
     bottom: -50px;
 }
 
-.in_contacto h4,p{
+.nu_en_contacto h4,p{
 
 margin: 1% ;
 
@@ -239,7 +239,7 @@ header{
     padding: 10px;
     top:0;
 }
-img.in_logotipo {
+img.nu_en_logotipo {
     width: 120px;
     position: fixed;
     left: 80px;
@@ -249,7 +249,7 @@ img.in_logotipo {
     position: fixed;
 }
 
-.in_mas {
+.nu_en_mas {
     width: 50px;
     position: fixed;
     left: 220px;
@@ -260,7 +260,7 @@ img.in_logotipo {
    -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-.in_mas:visited{
+.nu_en_mas:visited{
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
@@ -277,7 +277,7 @@ a:hover
   color: tomato;
 }
 
-#in_menuToggle
+#nu_en_menuToggle
 {
   display: block;
   position: relative;
@@ -290,7 +290,7 @@ a:hover
   user-select: none;
 }
 
-#in_menuToggle input
+#nu_en_menuToggle input
 {
   display: block;
   width: 40px;
@@ -309,7 +309,7 @@ a:hover
 
 
 
-#in_menuToggle span
+#nu_en_menuToggle span
 {
   display: block;
   width: 33px;
@@ -329,12 +329,12 @@ a:hover
               opacity 0.55s ease;
 }
 
-#in_menuToggle span:first-child
+#nu_en_menuToggle span:first-child
 {
   transform-origin: 0% 0%;
 }
 
-#in_menuToggle span:nth-last-child(2)
+#nu_en_menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
@@ -342,7 +342,7 @@ a:hover
 /* 
  * Transformacion en cruz
  */
-#in_menuToggle input:checked ~ span
+#nu_en_menuToggle input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
@@ -352,7 +352,7 @@ a:hover
 /*
  * Escondemos la de en medio
  */
-#in_menuToggle input:checked ~ span:nth-last-child(3)
+#nu_en_menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
@@ -361,7 +361,7 @@ a:hover
 /*
  *Y la otra al opuesto, para que sea una cruz
  */
-#in_menuToggle input:checked ~ span:nth-last-child(2)
+#nu_en_menuToggle input:checked ~ span:nth-last-child(2)
 {
   opacity: 1;
   transform: rotate(-45deg) translate(0, -1px);
@@ -370,7 +370,7 @@ a:hover
 /*
  * Lo posicionamos guay
  */
-#in_menu
+#nu_en_menu
 {
   position: absolute;
     width: 100%;
@@ -386,7 +386,7 @@ a:hover
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#in_menu li
+#nu_en_menu li
 {
   padding: 10px 0;
   font-size: 22px;
@@ -395,7 +395,7 @@ a:hover
 /*
  * hacemos que aparezca rollo fade desde la izquierda
  */
-#in_menuToggle input:checked ~ ul
+#nu_en_menuToggle input:checked ~ ul
 {
   transform: scale(1.0, 1.0);
   opacity: 1;
@@ -412,7 +412,7 @@ a:hover
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-.login {
+.nu_en_login {
      /* padding: 8% 0 0; */
     display: flex;
     justify-content: center;
@@ -421,7 +421,7 @@ a:hover
     width: 100%;
     /* margin-left: 70px; */
 }
-.form {
+.nu_en_form {
        position: relative;
     z-index: 1;
     background: rgba(255, 255, 255, 0);
@@ -436,7 +436,7 @@ a:hover
     border-radius: 5px;
     
 }
-.form input {
+.nu_en_form input {
      font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
@@ -450,7 +450,7 @@ a:hover
     border-width: 1px;
     border-radius: 5px;
 }
-.form button {
+.nu_en_form button {
       font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     /* outline: 0; */
@@ -470,45 +470,45 @@ a:hover
     border-width: 1px;
     border-radius: 5px;
 }
-.form button:hover,.form button:active,.form button:focus {
+.nu_en_form button:hover,.nu_en_form button:active,.nu_en_form button:focus {
      background: tomato;
     color: white;
     border: none;
     transition: 0.5s;
 }
-.form .message {
+.nu_en_form .nu_en_message {
   margin: 15px 0 0;
   color: #b3b3b3;
   font-size: 12px;
 }
-.form .message a {
+.nu_en_form .nu_en_message a {
   color: tomato;
   text-decoration: none;
 }
 
-.container {
+.nu_en_container {
   position: relative;
   z-index: 1;
   max-width: 300px;
   margin: 0 auto;
 }
-.container:before, .container:after {
+.nu_en_container:before, .nu_en_container:after {
   content: "";
   display: block;
   clear: both;
 }
-.container .info {
+.nu_en_container .nu_en_info {
   margin: 50px auto;
   text-align: center;
 }
-.container .info h1 {
+.nu_en_container .nu_en_info h1 {
   margin: 0 0 15px;
   padding: 0;
   font-size: 36px;
   font-weight: 300;
   color: #1a1a1a;
 }
-.container .info span {
+.nu_en_container .nu_en_info span {
   color: #4d4d4d;
   font-size: 12px;
 }
@@ -516,7 +516,7 @@ a:hover
   color: #000000;
   text-decoration: none;
 }
-.container .info span .fa {
+.nu_en_container .nu_en_info span .fa {
   color: #EF3B3A;
 }
 
