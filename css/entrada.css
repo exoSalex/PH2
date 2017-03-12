@@ -186,6 +186,7 @@ font-size: 80%;
 background-color: #777777;
 justify-content: space-between;
 display:flex;
+border-radius: 5px;
 
 
 }
@@ -223,6 +224,7 @@ display:flex;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
 }
 
 .en-flech:hover{
@@ -302,8 +304,8 @@ width: 100%;
 
   border-radius: 10px;
  border-width: 2px;
- border-style:solid;
- border-color:#373737
+ /*border-style:solid;
+ border-color:#373737*/
   
 }
 
@@ -1227,27 +1229,39 @@ a:hover
 
 
 
-.pagination {
-    display: inline-block;
+.in_pagination {
+    display: flex;
+    justify-content: center;
     position: relative;
     width: 100%;
-
+    font-family: 'Roboto',sans-serif;
+    color: #e41e1e;
+    width: auto;
+    font-size: 1.5em;
+    margin: 0;
+    left: 0px;
+    padding: 10px;
+    z-index: 5;
+    /* background-color: #777777; */
+    /* position: fixed; */
+    /* top: -100px; */
+    /* position: relative; */
 }
 
-.pagination a {
+.in_pagination a {
     color: black;
     float: left;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-.pagination a.active {
+.in_pagination a.in_active {
     background-color: #393939;
     color: white;
     border-radius: 5px;
 }
 
-.pagination a:hover:not(.active) {
+.in_pagination a:hover:not(.in_active) {
     background-color: tomato;
     color:white;
     border-radius: 5px;
