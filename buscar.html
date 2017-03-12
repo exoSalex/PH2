@@ -1,43 +1,70 @@
 <!DOCTYPE html>
-	<html lang="es">
-
+<html lang="zxx">
 	<head>
-
 		<title>Exo</title>
-		<meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/buscar.css">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="fontello/css/iconset.css" />
+		<meta charset="UTF-8">
 		<meta name="description" content="Comparte tus experiencias y opiniones con todo el mundo.">
 		<meta name="keywords" content="critica, opiniones, experiencias, opinar, debate" >
 		<meta name="author" content="Samuel Martínez Javaloyes  / Alejandro Ruiz Cáceres">
-
-		<link rel="stylesheet" href="estilo.css">
-		<link href="https://fonts.googleapis.com/css?family=Mada|Oswald" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="fontello/css/iconset.css" />
-
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 	</head>
-
 	<body>
+		<header>
+			<div class="in_present">
+				<a href="index.html"><img class="in_logotipo" src="corp/logo-exo.svg" alt="logotipo de EXO"></a>
+				<a href="nueva_entrada.html"><img class="in_mas" src="corp/plus.svg" alt="subir publicación"></a>
+			</div>
+			<div id="in_menuToggle">
+				<!--
+				A fake / hidden checkbox is used as click reciever,
+				so you can use the :checked selector on it.
+				-->
+				<input type="checkbox" />
+				
+				<!--
+				Some spans to act as a hamburger.
+				
+				They are acting like a real hamburger,
+				not that McDonalds stuff.
+				-->
+				<span></span>
+				<span></span>
+				<span></span>
+				<ul id="in_menu">
+					
+					
+					<li class="in_elementomenu"><a href="#">Categories</a></li>
+					<li class="in_elementomenu"><a href="buscar.html">Buscar</a></li>
+					<li class="in_elementomenu"><a id="leftu1" href="login.html">Log In</a></li>
+					<li class="in_elementomenu"><a id="leftu2" href="#">Log Out</a></li>
+					<li class="in_elementomenu"><a id="leftu3" href="registro.html">Register</a></li>
+				</ul>
+			</div>
+		</header>
+		<main class="bus-main">
 
+	
+		<div class="bu-holi">
+		<form class="bu-form" action="" method="get">
 
-
-		<!-- Desplegar el Menú activando un checkbox -->
-		<input type="checkbox" class="checkbox" id="menu-toogle"/>
-		<label for="menu-toogle" class="menu-toogle"><i class="iconset-search-circled"></i></label>
-
-		<form class="nav" action="" method="get">
-
-			<input type="text" id="titulo" name="titulo" placeholder="Título" autofocus><br>
-			<input type="text" id="texto" name="texto" placeholder="Texto" ><br>
-			<input type="text" id="autor" name="autor" placeholder="Autor"><br>
-			<label for="desde">Desde:</label>
-			<input type="date" id="desde" name="desde"><br>
-			<label for="hasta">Hasta:</label>
-			<input type="date" id="hasta" name="hasta"><br>
-			<input type="submit" name="buscar" value="Buscar">
+			<input class="bu-input" type="text" id="titulo" name="titulo" placeholder="Título" autofocus><br>
+			<input class="bu-input" type="text" id="texto" name="texto" placeholder="Texto" ><br>
+			<input class="bu-input" type="text" id="autor" name="autor" placeholder="Autor"><br>
+			<label for="desde">Desde</label><input class="bu-input" type="date" id="desde" name="desde" ><br>
+			<label for="hasta">Hasta</label><input class="bu-input" type="date" id="hasta" name="hasta"><br>
+			<input class="bu-input" type="submit" name="buscar" value="Buscar">
 
 		</form>
-
+		</div>
 		
-
 
 		<div class="in_contiene">
 			<div class="in_colright">
@@ -48,7 +75,7 @@
 						
 					</div>
 					<div class="in_overlay">
-						<p class="in_texto">Lolrem ipsum dolor sit amet, consectetur adipisicing elit. Sunt enim non officiis, laudantium quae animi sed corrupti unde tenetur assumenda.
+						<p class="in_texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt enim non officiis, laudantium quae animi sed corrupti unde tenetur assumenda.
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quod voluptas inventore ea fugiat labore earum ducimus a cupiditate aperiam.</p>
 						<a href="entrada.html" class="in_info2">More Info</a>
 						
@@ -208,9 +235,5 @@
 			<p class="in_copyright"> Copyright &copy; <time datetime="2017">2017</time> Exo Inc. </p>
 			
 		</footer>
-
 	</body>
-
-	
-
 </html>
