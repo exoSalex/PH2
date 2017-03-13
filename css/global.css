@@ -1026,6 +1026,7 @@ body{
     border-color: #403f3f;
     border-width: 1px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 .nu_en_form button:hover,.nu_en_form button:active,.nu_en_form button:focus {
      background: tomato;
