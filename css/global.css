@@ -2270,8 +2270,8 @@ body{
 
 
 .ac-main{
-  margin-bottom: 20%;
-  top: 8.5em;
+      margin-bottom: 20%;
+    /* top: 8.5em; */
 }
 
 .acerca{
