@@ -9,12 +9,7 @@
 <body>
 	<h1>Ejemplo de Javascript</h1>
 	<section>
-		
-		<h2>Entradas</h2>
-		<div>
-
-		</div>
-		<footer>
+	<footer>
 
 			<form onsubmit="return mostrarEntradas(this);">
 			<div><span>Pagina:</span><input type="text" name="pag" value="0"><span> de </span><input type="text" name="lpag" value="4">
@@ -22,23 +17,31 @@
 			</form>
 
 		</footer>
+		
 		<h2>Entradas</h2>
+		
 		<div>
-			<article>
-				<h3>Titulo de la entrada</h3>
-				<div>
-					<img src="" alt="">
-					<p></p>
-				</div>
-				<footer>
-					<p></p>
-					<time></time>
-					<p></p>
-					<p></p>
-				</footer>
-			</article>
+			<template>
+				<article>
+					<h3>Titulo de la entrada</h3>
+					<div>
+						<img src="" alt="">
+						<p></p>
+					</div>
+					<footer>
+						<p></p>
+						<time></time>
+						<p></p>
+						<p></p>
+					</footer>
+				</article>
+			</template>
 		</div>
 	</section>
-	
+	<footer>
+	<hr>
+	<p><a href="">Volver</a></p>
+	<p>&copy;Claudia -<time datetime="2017">Año 2017</time>
+	</footer>	
 </body>
 </html>
