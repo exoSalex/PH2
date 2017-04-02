@@ -269,6 +269,10 @@ main{
     padding: 0;
     left: 15px;
 }
+.in_tituloficha2{
+  width: 100px;
+  text-overflow: clip;
+}
 .in_tituloficha {
     padding: 5px;
     margin-top: -5px;

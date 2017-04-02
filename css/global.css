@@ -177,6 +177,8 @@ main{
     margin-left: 0;
     opacity: 0;
     border-radius: 7px;
+    border-bottom-right-radius: none; 
+    border-bottom-left-radius: none;
 }
 .in_texto{
       display: block;
@@ -186,6 +188,7 @@ main{
     color: #282828;
     text-transform: uppercase;
     pointer-events: none;
+    overflow: hidden;
   
 }
 .in_info2{
@@ -276,6 +279,11 @@ main{
     margin-left: 5px;
     color: #454545;
     font-family: 'Roboto', sans-serif;
+    width: 150px;
+}
+.in_tituloficha2{
+  width: 100px;
+  text-overflow: clip;
 }
 .in_tituloficha>span{
 	color: #6C6C6C

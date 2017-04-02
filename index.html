@@ -54,7 +54,7 @@
 		</header>
 		<main>
 		<div class="in_contiene">
-			<div class="in_colright">
+			<div class="in_colright" id="in_engancho" onload="mostrarEntradas();">
 				
 				<article class="in_ficha">
 					<div class="in_contain">
@@ -211,10 +211,10 @@
 				
 				
 				
-				<div class="in_pagination">
+				<div class="in_pagination" id="in_pagination">
 					<a href="#">F</a>
 					<a href="#">&laquo;</a>
-					<a href="#" class="in_active">2</a>
+					<a href="#" id="in_active" class="in_active">0</a>
 					<a href="#">&raquo;</a>
 					<a href="#">L</a>
 				</div>
@@ -400,4 +400,9 @@
 			
 		</footer>
 	</body>
+	<script src="js/index.js"></script>
+	<script type="text/javascript">
+	alert("Que cojones pasa aqui");
+	mostrarEntradas(0);
+	</script>
 </html>
