@@ -39,7 +39,7 @@ url += '?pag=' + pagina + '&lpag=' + 6;
 					html += '</div>';
 					//	MEQUEDAOPORAQUI
 					html += '<hr class="in_line">';
-					html += '<a href="#" class="in_profinfo">'+e.autor+'</a>'
+					html += '<a href="#" class="in_profinfo">'+e.login+'</a>'
 					html += '<a href="entrada.html" ><p class="in_desc">'+e.nombre+'</p></a>'
 					html += '<div class="in_extra_info">';
 					html += '<a href="#" class="in_info3"><div class="in_numcom">'+e.ncomentarios+'<span>comments</span></div></a>';
@@ -111,7 +111,58 @@ function anterior(){
 
 
 
+function mostrarComents(){
 
+	let xhr = new XMLHttpRequest(),
+		url = 'http://localhost/PH2/rest/comentario/?u=10';
+
+		//frm.pag.value para acceder a los campos del formulario
+
+		xhr.open('GET', url, true); //Porque no vamos a pedir informacion de la bbdd, sino de las entradas
+		xhr.onload= function(){
+			//console.log(xhr.responseText);		
+			let v = JSON.parse(xhr.responseText); //Lo convierte a objeto formato json
+			//console.log(v);
+
+			if(v.RESULTADO == 'ok' && v.FILAS.length!=0){
+				alert("entra al if");
+				let html= '';				
+				for(let i=0; i< v.FILAS.length;i++){
+					let e= v.FILAS[i];
+					foto= 'http://33.media.tumblr.com/32d3999ec96ef3757effdf93de6199d6/tumblr_nho41kUg0M1ts4htvo1_500.gif';
+					html += '<article class="in_coment">';
+					html += '<img class="in_profo" src="'+foto+'" alt="">';
+					html += '<h3 class="in_profoname">'+e.login+'</h3>';
+					html += '<h3 class="in_comentname">'+e.titulo+'</h3>';
+					html += '<p class="in_fecha">';
+					html += '<span class="in_datetime">'+e.fecha+'</span>';
+					html += '</p>';
+					html += '<div>';
+					html += '<div class="in_cobox">';
+					html += '<p class="in_coparraf">'+e.texto+'</p>';
+					html += '<a class="in_colink" href="entrada.html">More</a>';
+					html += '</div>';
+					html += '</div>';
+					html += '</article>';
+				
+
+					}// del for
+
+					
+
+
+				
+					
+					document.getElementById("in_cogancho").innerHTML = html;
+			}
+		
+		}
+		
+		xhr.send();
+
+		return false;  //Para que no se recargue la pag y asi poder ver el error
+
+}
 
 
 
